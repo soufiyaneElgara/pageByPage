@@ -1,19 +1,64 @@
 site_name: Page By Page
-site_url: https://soufiyaneelgara.github.io/pageByPage/ 
+site_url: https://soufiyaneelgara.io/pageByPage
+repo_url: https://github.com/soufiyaneElgara/pageByPage
+repo_name: 
+copyright: Copyright &copy; 2024 - 2025 Soufiyane EL GARA
 
-theme:
-  name: material
+dev_addr: '0.0.0.0:8000'
 
-nav:
-  - English Grammar: index.md
+plugins:
+  - search
+
 markdown_extensions:
-    - admonition
-    - pymdownx.highlight:
-       anchor_linenums: true
-    - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.saneheaders
+  - pymdownx.betterem
+  - footnotes
+  - toc:
+     permalink: "#"
 
-extra_javascript:
-    - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
-extra_css:
-    - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
+extra:
+   generator: false
+   social:
+     - icon: fontawesome/brands/github
+       link: https://github.com/soufiyaneElgara
+     - icon: fontawesome/brands/youtube
+       #link: https
+     - icon: fontawesome/brands/twitch
+       #link: https
+     - icon: fontawesome/brands/discord
+       #link: https
+theme:
+   name: readthedocs
+   #logo: assets/logo.png
+   features:
+      - navigation.footer
+      - navigation.instant
+        # - navigation.expand
+      - content.action.edit
+      - content.action.view
+      - content.code.copy
+   search:
+     lang:
+      - en
+      - ru
+   font:
+     text: Work Sans
+
+   palette:
+     # Palette toggle for light mode
+      - scheme: default
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+     # Palette toggle for dark mode
+      - scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
