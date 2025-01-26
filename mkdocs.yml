@@ -1,0 +1,21 @@
+site_name: Page By Page
+site_url: https://example.com
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+markdown_extensions:
+    - admonition
+    - pymdownx.highlight:
+       anchor_linenums: true
+    - pymdownx.superfences
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
+extra_css:
+    - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
