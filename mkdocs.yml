@@ -5,9 +5,7 @@ theme:
   name: material
 
 nav:
-  - Home: index.md
-  - About: about.md
-  - English Grammar: grammarTable.md
+  - English Grammar: index.md
 markdown_extensions:
     - admonition
     - pymdownx.highlight:
