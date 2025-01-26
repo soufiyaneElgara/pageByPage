@@ -1,5 +1,5 @@
 site_name: Page By Page
-site_url: https://example.com
+site_url: https://soufiyaneelgara.github.io/pageByPage/ 
 
 theme:
   name: material
@@ -7,7 +7,7 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-
+  - English Grammar: grammarTable.md
 markdown_extensions:
     - admonition
     - pymdownx.highlight:
